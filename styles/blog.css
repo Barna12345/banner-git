@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../asset/images/DC-background-agency.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+  padding: 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.logo{
+    font-size: 25px;
+
+}
+.span{
+    color: crimson;
+}
+.list{
+    list-style: none;
+   display: inline-block;
+ display: flex;
+   color: white;
+   margin: 0px 20px;
+   padding: 10px 10px 10px 10px;
+   gap: 50px;
+   font-size: 20px;
+}
+.list:hover{
+    color: cyan;
+}
+.tittle{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: rgb(3, 46, 18);
+    
+}
+.tittle >h1{
+    font-size: 50px;
+}
+.tittle >p{
+    font-size: 30px;
+    color: rgb(248, 252, 249);
+}
+.btn{
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(165, 124, 132);
+    font-style: italic;
+    border-radius: 2px 2px;
+    box-shadow: 2px solid grey;
+}
+
+.second-main{
+    height: 100vh;
+    background-image: url('../asset/images/istockphoto-1162117915-612x612.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+    
+
+.icon{
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  .box{
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+
+  }
+  .frist-boxs{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+.left{
+    color: white;
+}
+
+.blog{
+    margin: 50px;
+    align-items: center;
+    font-size: 60px;
+
+    text-align: center;
+}
+.pera{
+    align-items: center;
+ 
+    text-align: center;
+}
+.card{
+    width: 200px;
+    height: 300px;
+    
+    box-shadow: 2px 2px rgb(80, 78, 78);
+    border-radius: 5px;
+    
+
+}
+.blog-conteiner{
+    width: 80%;
+    margin: auto;
+    background-color: antiquewhite;
+  
+}
+.card-img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card-tittle{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    padding-left: 200px;
+ 
+}
+footer{
+    display: flex;
+    background-color: rgb(218, 185, 146);
+    padding: 130px 200px;
+    gap: 100px;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer-column{
+    width: 50%;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: darkgray;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    border: 0px;
+    width: 100px;
+
+}
+.contact
